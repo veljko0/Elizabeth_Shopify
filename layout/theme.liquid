@@ -11,6 +11,7 @@
     <!-- Header hook for plugins -->
     {{ 'application.css' | asset_url | stylesheet_tag }}
     {{ 'application.js' | asset_url | script_tag }}
+<<<<<<< HEAD
     <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
   </head>
   <body>
@@ -18,5 +19,12 @@
     <main role="main">
       {{ content_for_layout }}
     </main> 
+=======
+  </head>
+  <body>
+    <main role="main">
+      {{ content_for_layout }}
+    </main>
+>>>>>>> 970ecae ([Bugfix] WeeklyHow Logo is not loaded properly)
   </body>
 </html>

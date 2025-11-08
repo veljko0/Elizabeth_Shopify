@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*! tailwindcss v4.1.16 | MIT License | https://tailwindcss.com */
 @layer properties;
 @layer theme, base, components, utilities;
@@ -752,3 +753,17 @@
     }
   }
 }
+=======
+body {
+    background-color: rgb(251, 251, 232);
+}
+
+.homepage {
+    text-align: center;
+    padding-top: 10em;
+}
+
+.logo {
+    width: 25%;
+}
+>>>>>>> 970ecae ([Bugfix] WeeklyHow Logo is not loaded properly)
